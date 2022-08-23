@@ -14,4 +14,4 @@ function quickCheck(arr, elem) {
    // or index, of that element, or -1 if the element does not exist on the array.
   }
   
-  console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+  console.log(quickCheck(['squash', 'onions', 'apple'], 'apple'));

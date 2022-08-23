@@ -1,6 +1,6 @@
 function forecast(arr) {
     
-     let todayWeather = arr.slice(2,5);
+     let todayWeather = arr.slice(1,5);
     return todayWeather;
   }
   /* slice() copies or extracts a given number of elements to a new array

@@ -9,6 +9,6 @@ function getIndexToIns(arr, num) {
         }
         return array;
     }
-  }  // not solving waiting this for purpose 
+  }  // not  
   
   console.log(getIndexToIns([40, 60], 50));

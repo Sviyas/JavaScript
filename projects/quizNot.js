@@ -5,10 +5,10 @@ function getIndexToIns(arr, num) {
     {   //arr[i] > array
         if(array[i] > num)
         {
-          return num;
+          return array;
         }
-        return array;
+        return num;
     }
   }  // not  
   
-  console.log(getIndexToIns([40, 60], 50));
+  console.log(getIndexToIns([40, 60], 0));

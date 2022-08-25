@@ -9,5 +9,5 @@ function findLongestWordLength(str) {
       
     }
 
- console.log(findLongestWordLength(" Software developer is the Good Job!"));
+ console.log(findLongestWordLength(" Software developer"));
 // find the length of String

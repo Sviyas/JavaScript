@@ -2,7 +2,7 @@
 
 function myFunction(a,b)
 {
-     if(b.length === a)
+     if(b.length !== a.length)
      {
         return a;
      }
@@ -10,4 +10,3 @@ function myFunction(a,b)
 console.log(myFunction('v','viyasv'));
 
 // find the element of string  
-// pending//

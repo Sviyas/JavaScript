@@ -14,6 +14,6 @@ function myFunction(a,b)
    return false;
 }
 
-console.log(myFunction(5,'5'));
+console.log(myFunction(5,5));
 
 // check comparision operator in values

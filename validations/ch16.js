@@ -14,3 +14,5 @@ function myFunction(a)
 
 console.log(myFunction(5.454));
 console.log(myFunction(4));
+
+// ?? check wheather is number or decimal 

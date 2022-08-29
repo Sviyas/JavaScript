@@ -19,6 +19,8 @@ function myFunction(a)
         return false;
     }
 }
-console.log(myFunction(38));
+console.log(myFunction(37));
+// check prime number ?
+
 
 

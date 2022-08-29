@@ -11,4 +11,4 @@ function getIndexToIns(arr, num) {
     }
   }  // not  
   
-  console.log(getIndexToIns([40, 60], 0));
+  console.log(getIndexToIns([40, 60], 40));

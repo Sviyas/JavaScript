@@ -2,7 +2,8 @@
 function myFunction(a,b)
 {
 
-return b.split(a).length - 1
+return  (b.split(a).length === b )?? a;
+
 }
 console.log(myFunction('h','hi there how are you '));
 

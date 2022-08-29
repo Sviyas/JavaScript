@@ -10,7 +10,7 @@ function filteredArray(arr, elem) {
     return newArr;
   }
   
-  console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+  console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 7));
   /* Sometimes when working with arrays, it is very handy to be able to iterate through each item 
   to find one or more elements that we might need, 
   or to manipulate an array based on which data items meet a certain set of criteria. 

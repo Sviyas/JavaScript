@@ -39,7 +39,7 @@ function myFunction(arr,n)
             }
         }
 
-return arr[(n - 1)];	
+return arr[(n - 2)];	
  
  }
 console.log(myFunction([8,7,2,3],2));

@@ -7,7 +7,7 @@ function myFunction(a,b)
     return {hours,minutes, seconds};
 
 }
-console.log(myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:45:10')));
+console.log(myFunction(new Date('2022/09/06 02:00:00'), new Date('2001/05/23 11:20:00')));
 console.log(myFunction(new Date('2000/01/01 09:50:23'), new Date('2000/01/01 08:00:00')));
 console.log(myFunction(new Date('2000/01/01 11:04:12'), new Date('2000/01/01 08:00:00')));
 

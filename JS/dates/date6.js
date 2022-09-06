@@ -6,4 +6,4 @@ console.log(myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:
 console.log(myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:00:00')));
 console.log(myFunction(new Date('2001/01/01 08:00:00'), new Date('2000/01/01 08:00:00')));
 
-//  check two dates are equal or not ?
+//  check two dates and time are equal or not 

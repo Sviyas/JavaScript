@@ -1,7 +1,7 @@
 function myFunction(obj)
 {
 
-   // return {key : obj}; 
+   return {key : obj}; 
 
 }
 console.log(myFunction({a:1, b:2, c:3}));

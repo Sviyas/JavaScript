@@ -1,12 +1,8 @@
-
-
-function myFunction(a,b)
-{
-     if(b.length !== a.length)
-     {
-        return a;
-     }
+function myFunction(a, b) {
+  if (b.length !== a.length) {
+    return a;
+  }
 }
-console.log(myFunction('v','viyasv'));
+console.log(myFunction('v', 'viyasv'));
 
-// find the element of string  
+// find the element of string

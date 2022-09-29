@@ -1,6 +1,5 @@
-function myFunction(a,n)
-{
-    return a.slice(n.length,-n??a[n]);
+function myFunction(a, n) {
+  return a.slice(n.length, -n ?? a[n]);
 }
 console.log(myFunction([1, 2, 3], 6));
 console.log(myFunction([1, 2, 3, 4, 5], 2));

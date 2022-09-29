@@ -1,7 +1,5 @@
-
-function myFunction(a){
-
-    return Number(a.toFixed(2));
+function myFunction(a) {
+  return Number(a.toFixed(2));
 }
 
 console.log(myFunction(5.3424));

@@ -1,6 +1,5 @@
-function myFunction(d)
-{
-    return ((~~(d.getMiutes() / 15) +1) *15) %60
+function myFunction(d) {
+  return ((~~(d.getMiutes() / 15) + 1) * 15) % 60;
 }
 
 console.log(myFunction(new Date(2021, 8, 10, 15, 14, 00)));

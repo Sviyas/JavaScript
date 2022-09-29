@@ -1,7 +1,7 @@
-let sample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let sample = 'Beware of bugs in the above code; I have only proved it correct, not tried it.';
 let check = /[aei]/gi;
 
-let find  = sample.match(check);
+let find = sample.match(check);
 
 console.log(find);
 

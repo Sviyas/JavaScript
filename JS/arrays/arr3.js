@@ -1,10 +1,8 @@
-function myFunction(arr,e)
-{
+function myFunction(arr, e) {
   let value = [];
 
-  for(let i = 0; i<arr.length; i++)
-  {
-    (arr[i] !==e)? value.push(arr[i]) : null
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] !== e ? value.push(arr[i]) : null;
   }
   return value;
 }

@@ -1,6 +1,6 @@
-export const uppercaseString = (String) => {
-    return String.uppercaseString();
-}
+export const uppercaseString = String => {
+  return String.uppercaseString();
+};
 // export { uppercaseString };
 
-console.log( uppercaseString (aiugioduo));
+console.log(uppercaseString(aiugioduo));

@@ -1,4 +1,4 @@
-const prepareTea = () => " Gree Tea ";
+const prepareTea = () => ' Gree Tea ';
 
 /**
  * Get given number of cups of tea.
@@ -6,16 +6,14 @@ const prepareTea = () => " Gree Tea ";
  * return {Array<string>} Given amount of tea cups.
  **/
 const getTea = numOfCup => {
-    const teaCups = [];
+  const teaCups = [];
 
-    for(let cups = 1; cups <= numOfCup; cups += 1)
-    {
-        const teaCup = prepareTea();
-        teaCups.push(teaCup);
-    }
-    return teaCups ;
-
-}
+  for (let cups = 1; cups <= numOfCup; cups += 1) {
+    const teaCup = prepareTea();
+    teaCups.push(teaCup);
+  }
+  return teaCups;
+};
 
 const team4Tea = getTea(10);
 

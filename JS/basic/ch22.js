@@ -1,7 +1,5 @@
-function myFunction(a)
-{
-    return (a % 2 == 0)?true : false;
-    
+function myFunction(a) {
+  return a % 2 == 0 ? true : false;
 }
 
 console.log(myFunction(10));

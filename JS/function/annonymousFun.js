@@ -1,5 +1,5 @@
-(function(){
-    console.log("Hi i am hacker @!");
+(function () {
+  console.log('Hi i am hacker @!');
 })();
 
 // This is called a Annonymous Function

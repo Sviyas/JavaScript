@@ -1,18 +1,15 @@
-var user = [
-    {name: "jayanth", age:23, sex: "male"},
-    {name: "jayanth", age:23, sex: "male"},
-    {name: "santhi", age:23, sex: "female"},
-    {name: "santhi", age:23, sex: "female"},
-    {name: "manjoj", age:21, sex: "male"}
- ]
- 
- function uniqueValues(data,key)
- { 
-       return [...new Map(
-        data.map(a => [key(a),a])
-        ).values()
-       ]
-    
- }
- 
- console.table(JSON.stringify(uniqueValues(user, ind => ind.name)));
+import ps from 'prompt-sync';
+const prompt = ps();
+
+function myFunction(que) {
+  que = prompt(`enter the input : `);
+
+for(que=1; que <=100; que++)
+  {
+      const x = prompt('enter the v1 :');
+      const y = prompt('enter the v2 : ')
+      const result = x < y ? 'First' : x == y ? 'ANY' : 'SECOND';
+      return result;
+    }
+  }
+console.log(myFunction());

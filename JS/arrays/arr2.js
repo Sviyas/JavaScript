@@ -4,7 +4,6 @@ function myArr(a) {
   });
   // return value;
 }
-S;
 console.log(myArr([1, 3, 2]));
 console.log(myArr([4, 2, 3, 1]));
 // ? sort descending order

@@ -1,7 +1,7 @@
 function myFunction(a) {
   var value = a;
   return value.filter(val => {
-    return val.skill !== 'JavaScript';
+    return val.skill == 'JavaScript';
   });
 }
 console.log(

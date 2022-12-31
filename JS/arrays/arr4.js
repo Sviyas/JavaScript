@@ -40,4 +40,4 @@ function myFunction(arr, n) {
 }
 console.log(myFunction([8, 7, 2, 3], 2));
 
-// ?? find the nth element of arrab values
+// ?? find the nth element of array values

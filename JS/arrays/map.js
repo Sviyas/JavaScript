@@ -1,13 +1,11 @@
 function myFunction(a) {
-  // {
-  let values = a;
-  const find = values.map(val => {
-    return val({ name: firstName });
+  var value = a;
+  Object.keys(value).filter(key => {
+     key.firstName; 
+     return firstName;
   });
-
-  return find;
+  return value;
 }
-
 console.log(
   myFunction(
     { firstName: 'Susan', lastName: 'Steward' },

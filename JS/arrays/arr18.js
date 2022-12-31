@@ -1,7 +1,6 @@
 function myFunction(ar, ele) {
   return ar.reduce((a, b) => {
-    if (ele < a) return a;
-    return a + b;
+    if (ele !== a) return a + b;
   }, 0);
 }
 console.log(myFunction([1, 2, 3, 4, 5, 6, 7], 2));

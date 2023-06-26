@@ -5,7 +5,7 @@ function zeroArray(m, n) {
        Now, a new row will be initialised during each iteration of the outer loop allowing 
        for the desired matrix. */
       for (let j = 0; j < n; j++) {
-        row.push(1);
+        row.push(j);
       }
       newArray.push(row);
     }

@@ -2,7 +2,7 @@ function dropRightelement(arr, num) {
   if (arr.length <= num) {
     return arr;
   } else {
-    let newarr = arr.slice(-0, arr.length - num, num);
+    let newarr = arr.slice(-0, arr.length - num);
     return newarr;
   }
 }

@@ -1,7 +1,5 @@
 function myFunction(a) {
-  var result = a;
-
-  return result.length;
+ return a.length
 }
 
 console.log(myFunction([5, 5, 8]));

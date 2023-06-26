@@ -1,11 +1,12 @@
 function myFunction(a) {
-  var arr = a + '';
-  var result = arr.split('');
-  var value = result.map(str => Number(str));
+  const b = Array.from(String(a),Number)
+  return b;
+ 
 
-  return value;
 }
 
-console.log(myFunction([2154]));
+const val = myFunction([2154])
+console.log(val);
+
 
 // split the array with backwards

@@ -1,8 +1,8 @@
 function myFunction(a) {
   var value = a;
   Object.keys(value).filter(key => {
-     key.firstName; 
-     return firstName;
+
+     return value[key].firstName;
   });
   return value;
 }

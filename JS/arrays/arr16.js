@@ -4,6 +4,8 @@ function myFunction(min, max) {
     find.push(i);
   }
   return find;
+
+  
 }
 console.log(myFunction(2, 10));
 console.log(myFunction(1, 3));

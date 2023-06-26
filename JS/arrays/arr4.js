@@ -1,43 +1,14 @@
-function myFunction(arr, n) {
-  var a = 0,
-    b = 0,
-    c = 0,
-    n1 = 0,
-    n2 = c.length,
-    n3 = false,
-    result = false;
+function findNthSmallest(arr, n) {
+  // Sort the array in ascending order
+  arr.sort((a, b) => a - b);
 
-  while (a < n2) {
-    b = a + 1;
-
-    if (b < n2) {
-      for (c = b; c < n2; c++) {
-        if (arr[a] < arr[c]) {
-          n1 = arr[c];
-          arr[c] = arr[a];
-          arr[a] = n1;
-          n3 = true;
-        } else {
-          continue;
-        }
-      }
-    }
-
-    if (n3) {
-      n3 = false;
-    } else {
-      a++;
-      if (a === n) {
-        result = true;
-      }
-    }
-    if (result) {
-      break;
-    }
-  }
-
-  return arr[n - 2];
+  // Return the element at index n-1
+  return arr[n - 1];
 }
-console.log(myFunction([8, 7, 2, 3], 2));
 
-// ?? find the nth element of array values
+// Example usage
+const array = [9, 4, 2, 7, 5];
+const n = 3;
+
+const nthSmallest = findNthSmallest(array, n);
+console.log(`The ${n}th smallest element is: ${nthSmallest}`);

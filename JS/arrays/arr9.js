@@ -6,6 +6,8 @@ function myFunction(arr) {
       result = result.concat(nonMatch);
     }
   });
+  // console.log('result', result);
+  // console.log('result.length', result.length);
   return result.length === 0;
 }
 console.log(myFunction([true, true, true, true]));

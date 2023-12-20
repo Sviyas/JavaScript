@@ -1,10 +1,7 @@
-function myFunction(a) {
-  var value = a;
-  Object.keys(value).filter(key => {
-
-     return value[key].firstName;
+function myFunction(...a) {
+  const result = a.map(key => {
+    return key.firstName;
   });
-  return value;
 }
 console.log(
   myFunction(

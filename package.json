@@ -2,7 +2,9 @@
   "type": "module",
   "dependencies": {
     "prompt-sync": "^4.2.0",
-    "prompt-sync-history": "^1.0.1"
-  }
+    "prompt-sync-history": "^1.0.1",
+    "puppeteer": "^21.7.0"
+  },
+  "types": "module"
 }
 
